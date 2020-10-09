@@ -1,0 +1,96 @@
+.menubuynow {
+  background: #930537 !important;
+  color: #fff !important;
+  padding: 8px 25px !important;
+  border-radius: 20px;
+  font-weight: bold;
+  // margin-top: 7px !important;
+  // box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+  // margin-top:15px;
+  text-decoration: none !important;
+
+  // @include respond-to(large-screen) {
+  // // font-size: 26px;
+  // margin-top:0px;
+  // }
+
+  &:hover {
+    background: #b60241 !important;
+    color: #fff !important;
+    transition: 0.9s;
+  }
+}
+
+.button-red {
+  margin: 15px 0 !important;
+  background: #930537 !important;
+  border-radius: 25px !important;
+  padding: 8px 32px 10px;
+  -webkit-box-shadow: 8px 9px 6px -5px rgba(33, 37, 41, 1);
+  -moz-box-shadow: 8px 9px 6px -5px rgba(33, 37, 41, 1);
+  box-shadow: 8px 9px 6px -5px rgba(33, 37, 41, 1);
+  text-decoration: none !important;
+  color: #fff !important;
+  font-weight: bold;
+
+  // @include respond-to(large-screen) {
+  // // font-size: 26px;
+  // margin-top:0px;
+  // }
+
+  &:hover {
+    background: #b60241 !important;
+    color: #fff !important;
+    transition: 0.9s;
+    // -webkit-box-shadow: none;
+    // -moz-box-shadow: none;
+    // box-shadow: none;
+  }
+}
+
+.button-red-option {
+  background: #930537 !important;
+  border-radius: 25px !important;
+  padding: 16px 32px 14px;
+  -webkit-box-shadow: 8px 9px 6px -5px rgba(33, 37, 41, 1);
+  -moz-box-shadow: 8px 9px 6px -5px rgba(33, 37, 41, 1);
+  box-shadow: 8px 9px 6px -5px rgba(33, 37, 41, 1);
+  text-decoration: none !important;
+  color: #fff !important;
+  font-weight: bold;
+
+  // @include respond-to(large-screen) {
+  // // font-size: 26px;
+  // margin-top:0px;
+  // }
+
+  &:hover {
+    background: #b60241 !important;
+    color: #fff !important;
+    transition: 0.9s;
+    // -webkit-box-shadow: none;
+    // -moz-box-shadow: none;
+    // box-shadow: none;
+  }
+}
+
+.button-white {
+  // font-size: 20px!important;
+  border: 2px solid #fff !important;
+  padding: 10px 23px;
+  border-radius: 30px;
+  -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.42), inset -2px -2px 2px rgba(0, 0, 0, 0.38);
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.42), inset -2px -2px 2px rgba(0, 0, 0, 0.38);
+  display: inline-block;
+  color: #000 !important;
+  background: #fff !important;
+  text-decoration: none !important;
+  border: solid 2px #000 !important;
+  transition: all 0.4s ease-in-out;
+  box-shadow: none;
+
+  &:hover {
+    background: #cbcbcb !important;
+    transition: 0.9s;
+  }
+}

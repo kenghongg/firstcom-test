@@ -1,0 +1,317 @@
+/* LANDING */
+section {
+  &.section-container {}
+}
+
+#mainWrapper {
+  margin-top: 121px;
+}
+
+.bg-color-grey {
+  background-color: #e9edf0 !important;
+}
+
+.bg-color-red {
+  background-color: #960739 !important;
+}
+
+.content-container {
+  max-width: 850px;
+  margin: auto;
+
+  .content-wording {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.influencer-container {
+  .influencer-content {
+    max-width: 180px;
+
+    @include respond-to(small-screen) {
+      max-width: 200px;
+    }
+
+    @include respond-to(medium-screen) {
+      max-width: 255px;
+    }
+
+    margin:0 auto 20px;
+
+    @include respond-to(large-screen) {
+      margin: 0 0 20px;
+    }
+
+    .influencer-img-wrap {
+      padding-bottom: 15px;
+
+      img {
+        // max-width:180px;
+        max-width: 100%;
+
+        // @include respond-to(small-screen) {
+        //   max-width:200px;
+        // }
+
+        // @include respond-to(medium-screen) {
+        //   max-width:255px;
+        // }
+      }
+    }
+
+    .influencer-caption-txt {
+      p {
+        margin: 0;
+        text-align: center;
+
+        &.comment {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+.two-col-flex {
+  flex-direction: column;
+
+  @include respond-to(large-screen) {
+    flex-direction: row;
+
+    &.row-reverse {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+ul.list-style-dash {
+  list-style-type: none;
+  padding-left: 20px;
+
+  li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+}
+
+.radiant-options-container {
+  .radiant-option {
+    background-color: #f2cac7;
+    padding: 14px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    position: relative;
+
+    @include respond-to(medium-screen) {
+      width: 49%;
+      margin: 0 auto 15px;
+      padding: 20px;
+    }
+
+    @include respond-to(large-screen) {
+      width: 32%;
+      margin: 0 0 15px;
+    }
+
+    .radiant-option-img {
+      max-width: 200px;
+      margin: auto;
+    }
+
+    .radiant-option-txt {
+      margin-top: 15px;
+      text-align: center;
+
+      @include respond-to(medium-screen) {
+        text-align: left;
+      }
+
+      p {
+        margin-bottom: 0.5rem
+      }
+
+      .radiant-float-img {
+        width: 150px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+
+    &.extra-bottom {
+      padding-bottom: 130px;
+    }
+
+    &.bg-lighter {
+      background-color: #fff0f2;
+    }
+  }
+
+}
+
+.work-best-container {
+  .work-best-content {
+
+    width: 100%;
+
+    @include respond-to(large-screen) {
+      width: 50%;
+    }
+
+    &:first-child {
+      align-self: flex-end;
+    }
+
+    .works-best-list {
+      list-style-type: none;
+      padding: 20px 30px;
+
+      @include respond-to(large-screen) {
+        padding: 20px 0;
+      }
+
+      li:before {
+        content: url(../images/landing/tick.png);
+        position: absolute;
+        margin-left: -34px;
+        margin-top: -1px;
+      }
+
+      li {
+        margin-bottom: .5rem;
+        padding-top: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+.products-options-container {
+  .product-option {
+    width: 100%;
+    position: relative;
+    // padding:14px;
+    box-shadow: 0px 6px 5px 0px #ddd;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 15px;
+
+    @include respond-to(medium-screen) {
+      width: 49%;
+      margin: 0 auto 15px;
+      // padding:20px;
+    }
+
+    @include respond-to(large-screen) {
+      width: 32%;
+      margin: 0 0 15px;
+    }
+
+    .product-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      background-color: #ffebee;
+      border-radius: 20px 20px 0 0;
+      padding: 15px;
+
+      span {
+        display: block;
+        font-size: 1rem;
+        color: #a6a6a6;
+      }
+    }
+
+    .product-content {
+      padding: 20px 20px 50px;
+
+      .pricing {
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        // padding-top:20px;
+
+        span {
+          font-size: 1.2rem;
+          display: block;
+        }
+      }
+    }
+
+    // .option-btn{
+    //   position:absolute;
+    //   bottom:0;
+    //   margin:auto;
+    // }
+
+  }
+}
+
+
+.peace-mind-container {
+  .peace-mind-content {
+    width: 100%;
+    padding: 20px 0;
+
+    @include respond-to(large-screen) {
+      width: 32%;
+      margin: 0 0 15px;
+      padding: 20px;
+    }
+
+    .peace-mind-content-inner {
+      flex-direction: row;
+
+      @include respond-to(large-screen) {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .peace-mind-img {
+        width: 60px;
+        flex-shrink: 0;
+        margin-right: 15px;
+
+        @include respond-to(large-screen) {
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+.fact-container {
+
+  .fact-content {
+    width: 21%;
+    margin: 0 auto;
+
+    @include respond-to(large-screen) {
+      width: 11%;
+    }
+  }
+}
+
+.card-header {
+  background-color: #e6e6e6;
+  color: #000000;
+
+  .faq-content {
+    position: relative;
+    width: 100%;
+    text-align: left;
+
+    img {
+      position: absolute;
+      right: 0;
+    }
+  }
+}
