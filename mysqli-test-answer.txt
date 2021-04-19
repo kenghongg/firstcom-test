@@ -1,0 +1,17 @@
+Mysqli Skill Test
+
+1. Please display all active books from “db_book” table and order by ascending.
+> SELECT book_name FROM db_book WHERE book_status = '1' ORDER BY book_name ASC 
+
+2. Please display all active books and book’s available date in June 2020 from “db_book” table.
+> SELECT book_name FROM db_book WHERE book_status = '1' AND book_available_date >= '2020-06-01 00:00:00' ORDER BY book_name ASC 
+
+3. Please display any two active books and book’s price below $10 from “db_book” table.
+> SELECT book_name FROM db_book WHERE book_status = '1' AND book_price <= '10' ORDER BY RAND() LIMIT 2
+  
+4. A consumer would like to borrow a book “Doremon” start from 25 June 2020 to 30 June 2020 ,
+please insert a transaction record into “db_transaction” table.
+> INSERT INTO `db_transaction` (`transaction_id`, `transaction_book_id`, `transaction_firstname`, `transaction_lastname`, `transaction_borrow_date`, `transaction_return_date`, `transaction_borrow_totaldays`, `transaction_borrow_transaction_totalprice`) VALUES
+(1, 2, 'kenghong', 'ho', '2020-06-25', '2020-06-30', 5, '39.00'),
+
+
