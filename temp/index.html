@@ -13,13 +13,621 @@
   <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
   <link inline href="assets/css/combined-styles-1.0.1.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <!--removeIf(production)-->
   <link rel="stylesheet" href="assets/css/combined-styles.css">
   <!--endRemoveIf(production)-->
 </head>
 
 <body>
- 
+  <!-- News Ticker start -->
+  <!-- <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker__item"><img data-src="assets/images/landing/call-answer.png" src="assets/images/landing/call-answer.png" alt="" class="phone">&nbsp; <a href="tel:8447077730" class="phone-link">(844) 707-7730</a></div>
+      <div class="ticker__item">Better Body Co is a natural supplements company that helps women over 40 make menopause easy.</div>
+    </div>
+  </div> -->
+  <!-- News Ticker end -->
+  <!-- Navigation start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-nav navbar-fixed-top">
+    <div class="container content-container">
+      <!-- Brand logo -->
+      <a class="navbar-brand" href="#"><img data-src="assets/images/logo.png" src="assets/images/logo.png" alt=""></a>
+      <!-- Mobile nav toggle controller -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav list -->
+      <div class="collapse navbar-collapse " id="navbarToggler">
+        <ul class="navbar-nav ml-auto mr-2 mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#how-it-works" data-scroll>PRODUCT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ingredients" data-scroll>TOKEN SALE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews" data-scroll>TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq" data-scroll>FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://betterbody.co/#smile-home">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link menu-btn" href="#faq" data-scroll>WHITEPAPER&nbsp;&nbsp;<img class="icon-deactive" src="assets/images/icon-whitepaper.png" alt="" title=""><img class="icon-active" src="assets/images/icon-whitepaper-active.png" alt="" title=""></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://betterbody.co/#smile-home">SIGN IN</a>
+          </li>
+          <li class="nav-item">
+            <a class="dropdown nav-link" href="#">
+              <div class="dropdown-toggle" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EN
+              </div>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">ZH</button>
+                <button class="dropdown-item" type="button">ID</button>
+                <button class="dropdown-item" type="button">TH</button>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation end -->
+  <a name="top" id="top"></a>
+  <!-- Hidden page title -->
+  <h1 style="display:none;">Reefic Protocol</h1>
+  <!-- Main container start -->
+  <div id="mainWrapper">
+    <div class="section-landing-wrap">
+      <div class="container-fluid" id="section-landing">
+        <div class="text-center landing-title">HAVE A REEFIC DAY!</div>
+        <div class="text-center landing-txt">Reefic Protocol is a decentralised platform where customers can exchange reward points <br class="d-none d-xl-block">across multiple loyalty programs and selected cryptocurrencies.</div>
+        <div class="text-center token-title">OPEN FOR TOKEN SALE IN</div>
+        <!-- Timer start -->
+        <!-- <div id="timer" class="d-flex align-items-center justify-content-center text-center">
+          <div id="days" class="timer-word"></div>
+          <div id="hours" class="timer-word"></div>
+          <div id="minutes" class="timer-word"></div>
+          <div id="seconds" class="timer-word"></div>
+        </div> -->
+        <div class="timer d-flex align-items-center justify-content-center text-center">
+          <div class="days timer-word">204<span>DAYS</span></div>
+          <div class="hours timer-word">16<span>HOURS</span></div>
+          <div class="minutes timer-word">22<span>MINUTES</span></div>
+          <div class="seconds timer-word">27<span>SECONDS</span></div>
+        </div>
+        <!-- Timer end -->
+        <div class="d-flex justify-content-center justify-content-lg-between m-w-400 m-auto pt-3">
+          <a href="#" class="cta-btn btn-green mx-2">WHITELIST</a>
+          <a href="#" class="cta-btn btn-green mx-2">BOUNTY</a>
+        </div>
+      </div>
+
+      <div class="pt-5">
+        <div><img src="assets/images/section-wave-1.png" alt="" width="100%"></div>
+      </div>
+    </div>
+    
+    <div id="section-explained">
+      <div class="container-fluid">
+        <h2 class="color-purple text-center pt-3">REEFIC PROTOCOL EXPLAINED</h2>
+        <div class="text-center pt-5">
+          <!-- <img src="assets/images/explained-img-01.jpg" alt=""> -->
+            <iframe id="player" type="text/html" width="100%" height="390" style="max-width:640px;"
+            src="https://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&autoplay=1"
+            frameborder="0"></iframe>
+        </div>
+        <div class="d-flex justify-content-center pt-5">
+          <div class="social-icon-white-col"><a href="#"><img src="assets/images/icon-white-twitter.png" alt=""></a></div>
+          <div class="social-icon-white-col"><a href="#"><img src="assets/images/icon-white-mail.png" alt=""></a></div>
+          <div class="social-icon-white-col"><a href="#"><img src="assets/images/icon-white-medium.png" alt=""></a></div>
+          <div class="social-icon-white-col"><a href="#"><img src="assets/images/icon-white-github.png" alt=""></a></div>
+        </div>
+        <div class="d-flex justify-content-center justify-content-lg-between m-w-400 m-auto pt-5">
+          <a href="#" class="cta-btn btn-purple mx-2">WHITEPAPER</a>
+          <a href="#" class="cta-btn btn-purple mx-2">ONE PAGER</a>
+        </div>
+      </div>
+      <div class="pt-5">
+        <div><img src="assets/images/section-wave-2.png" alt="" width="100%"></div>
+      </div>
+    </div>
+
+    <div id="section-releases">
+      <div class="container-fluid pt-5">
+        <h2 class="color-purple text-center pt-5">REEFIC PRESS RELEASES</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper-container container mt-5" id="releaseSwiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slider-box">
+                <div class="slider-content">
+                  <div class="slider-logo text-center"><img src="assets/images/business-insider-logo.jpg" alt=""></div>
+                  <div class="slider-txt">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada sapien ut aliquet accumsan. Nunc mollis viverra dui ac eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque congue elementum hendrerit. Aliquam erat volutpat.</p>
+                    <p>17 July 2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-box">
+                <div class="slider-content">
+                  <div class="slider-logo text-center"><img src="assets/images/blockchain-logo.jpg" alt=""></div>
+                  <div class="slider-txt">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada sapien ut aliquet accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan nunc eu orci sollicitudin, ac laoreet lacus iaculis.</p>
+                    <p>17 July 2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-box">
+                <div class="slider-content">
+                  <div class="slider-logo text-center"><img src="assets/images/news-btc-logo.png" alt=""></div>
+                  <div class="slider-txt">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi malesuada sapien ut aliquet accumsan. Nunc mollis viverra dui ac eleifend. Orcam erat volutpat.</p>
+                    <p>17 July 2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="d-flex justify-content-center m-auto pt-5 pb-5">
+          <a href="#" class="cta-btn btn-purple">MORE RELEASES</a>
+        </div>
+      </div>
+      <div class="pt-5">
+        <div><img src="assets/images/section-wave-3.png" alt="" width="100%"></div>
+      </div>
+    </div>
+
+    <div id="section-updates">
+      <div class="container-fluid">
+        <h2 class="color-purple text-center">REEFIC PROTOCOL UPDATES</h2>
+        <div class="color-purple text-center pt-1 subtitle-liner">Stay up-to-date with the current news</div>
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 col-12 mt-3">
+              <div><img src="assets/images/updates-img-01.jpg" alt="" title="" style="width:100%;"></div>
+              <div class="updates-title color-black pt-3">Gillgold Reefic to do a soft lauch in tokyo, Japan</div>
+              <div class="updates-read-more collapsed color-grey pt-2" data-toggle="collapse" href="#collapse01" role="button" aria-expanded="false" aria-controls="collapse01">Read More</div>
+              <div class="collapse" id="collapse01">
+                <div class="card card-body ">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12 mt-3">
+              <div><img src="assets/images/updates-img-01.jpg" alt="" title="" style="width:100%;"></div>
+              <div class="updates-title color-black pt-3">Gillgold Reefic to do a soft lauch in tokyo, Japan</div>
+              <div class="updates-read-more collapsed color-grey pt-2" data-toggle="collapse" href="#collapse02" role="button" aria-expanded="false" aria-controls="collapse02">Read More</div>
+              <div class="collapse" id="collapse02">
+                <div class="card card-body ">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12 mt-3">
+              <div><img src="assets/images/updates-img-01.jpg" alt="" title="" style="width:100%;"></div>
+              <div class="updates-title color-black pt-3">Gillgold Reefic to do a soft lauch in tokyo, Japan</div>
+              <div class="updates-read-more collapsed color-grey pt-2" data-toggle="collapse" href="#collapse03" role="button" aria-expanded="false" aria-controls="collapse03">Read More</div>
+              <div class="collapse" id="collapse03">
+                <div class="card card-body ">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12 mt-3">
+              <div><img src="assets/images/updates-img-01.jpg" alt="" title="" style="width:100%;"></div>
+              <div class="updates-title color-black pt-3">Gillgold Reefic to do a soft lauch in tokyo, Japan</div>
+              <div class="updates-read-more collapsed color-grey pt-2" data-toggle="collapse" href="#collapse04" role="button" aria-expanded="false" aria-controls="collapse04">Read More</div>
+              <div class="collapse" id="collapse04">
+                <div class="card card-body ">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center m-auto pt-5 pb-5">
+          <a href="#" class="cta-btn btn-purple">MORE EVENTS</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-creating">
+      <div>
+        <div><img src="assets/images/section-wave-4.png" alt="" width="100%"></div>
+      </div>
+      <div class="container-fluid">
+        <div class="container pt-5 mt-5">
+          <div class="row">
+            <div class="col-lg-5">
+              <h2 class="color-purple text-left">CREATING A SECURE AND INTERLINKED ECO-SYSTEM FOR CUSTOMER LOYALTY AND ENGAGEMENT</h2>
+              <div class="color-purple text-left pt-3 subtitle-liner">Reefic Protocol is an integrated exchange habitat that links customers, merchants and solution providers together.</div>
+              <div class="d-flex justify-content-start m-auto pt-4 pb-5">
+                <a href="#" class="cta-btn btn-purple">REGISTER NOW</a>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <!-- <div class="eco-system-content position-relative">
+                <p class="text-01 color-grey">Enables Reward Points to be easily Traded</p>
+                <p class="text-02 color-grey">Promotes Data Driven Smart Businesses</p>
+              </div> -->
+              <div class="text-center"><img src="assets/images/eco-system-benefits.png" alt="" widht="100%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-token">
+      <div>
+        <div><img src="assets/images/section-wave-5.png" alt="" width="100%"></div>
+      </div>
+      <div class="container-fluid">
+        <h2 class="color-purple text-center pt-5 mt-5">TOKEN GENERATION EVENT</h2>
+        <div class="timer d-flex align-items-center justify-content-center text-center">
+          <div class="days timer-word color-purple">204<span>DAYS</span></div>
+          <div class="hours timer-word color-purple">16<span>HOURS</span></div>
+          <div class="minutes timer-word color-purple">22<span>MINUTES</span></div>
+          <div class="seconds timer-word color-purple">27<span>SECONDS</span></div>
+        </div>
+        <div class="container">
+          <div class="content-center d-flex mx-auto mt-3">
+            <p class="color-grey text-center">To achieve its platform vision, Reefic Protocol is looking to the cryptocurrency community to support this movement</p>
+          </div>
+        </div>
+        <div class="container mt-4">
+          <div class="row">
+            <div class="content-center mx-auto">
+              <div class="token-table color-black">
+                <div class="token-table-row">
+                  <div>Total Token Supply</div>
+                  <div>300,000,000 RFT</div>
+                </div>
+                <div class="token-table-row">
+                  <div>RFT Token Sale Supply</div>
+                  <div>50,000,000 RFT</div>
+                </div>
+                <div class="token-table-row">
+                  <div>Token Sale Price</div>
+                  <div>1 ETH = 6,000 RFT</div>
+                </div>
+                <div class="token-table-row">
+                  <div>Soft Cap</div>
+                  <div>USD 2,000,000</div>
+                </div>
+                <div class="token-table-row">
+                  <div>Hard Cap</div>
+                  <div>25,000 ETH</div>
+                </div>
+                <div class="token-table-row">
+                  <div>Token Format</div>
+                  <div>ERC-20 Standard </div>
+                </div>
+                <div class="token-table-row">
+                  <div>Currency Accepted</div>
+                  <div>ETH</div>
+                </div>
+                <div class="token-table-row">
+                  <div>Minimum Contribution</div>
+                  <div>0.16 ETH or 1,000 RFT</div>
+                </div>
+                <div class="token-table-row">
+                  <div>Individual Cap Enhanced KYC</div>
+                  <div>16 ETH or 100,000 RFT</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-center mx-auto mt-5">
+          <div class="token-purple-row">
+            <div class="token-purple-col">
+              <div class="token-purple-title">Pre sale</div>
+              <div class="token-purple-txt"><strong>3 July 2018</strong><br>10 days</div>
+              <div class="token-purple-txt"><strong>30% Bonus</strong><br>Soft Cap<br>$2M</div>
+            </div>
+            <div class="token-purple-col">
+              <div class="token-purple-title">Sale stage 1</div>
+              <div class="token-purple-txt"><strong>15 August 2018</strong><br>15 days</div>
+              <div class="token-purple-txt">
+                <strong>20% Bonus</strong><br>Hard Cap<br>25K ETH
+              </div>
+            </div>
+            <div class="token-purple-col">
+              <div class="token-purple-title">Sale stage 2</div>
+              <div class="token-purple-txt"><strong>28 October 2018</strong><br>10 days</div>
+              <div class="token-purple-txt">20% Bonus<br>Hard Cap<br>$5M</div>
+            </div>
+          </div>
+        </div>
+        <div class="content-center mx-auto pt-5">
+          <div class="d-flex align-items-center justify-content-center flex-column flex-lg-row">
+            <div class="m-3"><p class="color-purple m-0"><strong>Don’t miss your chance to get more Reefic tokens!</strong></p></div>
+            <div class="m-3"><a href="#" class="cta-btn btn-purple">RESGISTER NOW</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="color-purple text-center">Token Allocation</h3>
+            <div class="mt-5 text-center"><img src="assets/images/token-allocation-img.png" alt="" width="100%"></div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <h3 class="color-purple text-center">Use of proceeds</h3>
+            <div class="mt-5 text-center"><img src="assets/images/use-of-proceeds-img.png" alt="" width="100%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5 pt-5">
+        <div>
+          <h2 class="color-purple text-center">Don’t Miss the OPPORTUNITY!</h2>
+          <div class="m-3 text-center"><a href="#" class="cta-btn btn-purple">REGISTER NOW</a></div>
+        </div>
+      </div>
+      <div class="pt-5">
+        <div><img src="assets/images/section-wave-6.png" alt="" width="100%"></div>
+      </div>
+    </div>
+
+    <div id="section-implementation">
+      <h2 class="color-purple text-center pt-5">Implementation Roadmap</h2>
+      <div class="container mt-5">
+        <div class="content-center mx-auto">
+          <div class="implementation-box color-black active">
+            <div class="implementation-question"><span>Q4</span>2018</div>
+            <div class="implementation-txt">Assemble the business team for Reefic Protocol. Basic Reefic Protocol API for merchants and solution providers to integrate.</div>
+          </div>
+          <div class="implementation-box color-black">
+            <div class="implementation-question"><span>Q1</span>2019</div>
+            <div class="implementation-txt">Pilot of exchange platform in collaboration with certified customer apps with selected partners in Singapore, Malaysia, Philippines, Australia Attains 300 strong merchant sign up through solution providers and other partnerships.</div>
+          </div>
+          <div class="implementation-box color-black">
+            <div class="implementation-question"><span>Q2</span>2019</div>
+            <div class="implementation-txt">Launch of Reefic App for iOS and Android for customers to download and exchange their reward points. 
+              <br><br>
+              Launch of Reefic Bicameral Governing Body to validate newly created blocks based on Bicameral Governing Strategy, and to audit already validated blocks. Expansion into Taiwan and Hong Kong through strategic partnerships. Launch of Reefic Bicameral Governing Body to validate newly created blocks based on Bicameral Governing Strategy, and to audit already validated blocks.
+              <br><br>
+              Expansion into Taiwan and Hong Kong through strategic partnerships.</div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between m-w-400 m-auto pt-5 pb-5">
+          <a href="#" class="cta-btn btn-purple">WHITEPAPER</a>
+          <a href="#" class="cta-btn btn-purple">ONE PAGER</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="section-cast">
+      <div>
+        <div><img src="assets/images/section-wave-7.png" alt="" width="100%"></div>
+      </div>
+      <h2 class="color-purple text-center">Meet The Cast</h2>
+      <h4 class="color-purple text-center">Development team</h4>
+
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-01.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>ADRIEL HENG</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-02.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>ANNE CHEAH</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-03.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>CHRIS NG</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-04.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>QINGXIAN</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-01.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>ADRIEL HENG</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-02.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>ANNE CHEAH</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-03.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>CHRIS NG</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-04.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>QINGXIAN</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <h4 class="color-purple text-center">Advisors</h4>
+      <div class="container mt-5 pb-5">
+        <div class="row">
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-01.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>ADRIEL HENG</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-02.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>ANNE CHEAH</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-03.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>CHRIS NG</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center mb-4">
+            <a href="" class="cast-profile">
+              <img src="assets/images/cast-profile-04.jpg" alt="">
+              <div class="cast-profile-hover">
+                <span><strong>QINGXIAN</strong></span>
+                <span>LEAD</span>
+                <div class="cast-profile-desc">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large.
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="section-partner">
+      <div class="py-5"></div>
+      <h2 class="color-purple text-center">Partnerships</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper-container container mt-5" id="partnerSwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="assets/images/partnership-01.jpg" alt="" width="100%" style="max-width:210px;"></div>
+          <div class="swiper-slide"><img src="assets/images/partnership-02.jpg" alt="" width="100%" style="max-width:210px;"></div>
+          <div class="swiper-slide"><img src="assets/images/partnership-03.jpg" alt="" width="100%" style="max-width:210px;"></div>
+          <div class="swiper-slide"><img src="assets/images/partnership-04.jpg" alt="" width="100%" style="max-width:210px;"></div>
+          <div class="swiper-slide"><img src="assets/images/partnership-05.jpg" alt="" width="100%" style="max-width:210px;"></div>
+          <div class="swiper-slide"><img src="assets/images/partnership-06.jpg" alt="" width="100%" style="max-width:210px;"></div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="py-5"></div>
+    </div>
+
+    <div id="section-form" style="background-color:#43475f;">
+      <div style="height:400px;"></div>
+    </div>
+
+    <div id="section-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div><img src="assets/images/logo-with-color.png" alt=""></div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="d-flex justify-content-end">
+              <a href="" class="mx-2 color-black">PRIVACY POLICY</a>
+              <a href="" class="mx-2 color-black">FAQ</a>
+              <a href="" class="mx-2 color-black">CONTACT</a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-center">
+          <p class="text-center" style="color:#c0c1c6;">© 2018 REEFIC pte ltd. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <!-- Footer -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -27,6 +635,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.plugins.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://www.youtube.com/player_api"></script>
   <!--removeIf(production)-->
   <!-- <script src="assets/js/data-info.js"></script> -->
   <script src="assets/js/general.js"></script>
